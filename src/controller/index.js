@@ -26,7 +26,7 @@ const registerUser = async(req, res, next) => {
             subject: `Verify your email`,
             html: `<h2>Dear ${user.firstname}, thank you for registering on our website</h2>
                 <h4>Please verify your email to continue...</h4>
-                <a href="http://localhost:8081/user-verified"> Click here to verify your email </a>
+                <a href="http://localhost:8080/user-verified"> Click here to verify your email </a>
             `
         }
 
